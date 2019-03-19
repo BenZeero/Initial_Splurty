@@ -36,7 +36,7 @@
 
 .links a{
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     border-bottom: 1px solid #dfdfdf;
     font-family: 'eraserregular', sans-serif;
     font-weight: bold;
@@ -57,7 +57,7 @@ h1 {
 }
 
 h2 {
-  font-family: 'eraserregular', sans-serif;
+  font-family: 'nobileregular', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css?family=eraserregular');
@@ -65,7 +65,7 @@ h2 {
 .next-quote {
   color:#f84342;
   font-family: 'eraserregular', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .slogan{
@@ -87,4 +87,27 @@ h2 {
 
 .logo:hover{
   text-decoration: none;
+}
+
+@media (max-width: 750px){
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal{
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'nobileregular', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
+}
+
+.authorfont{
+  font-family: 'eraserregular', sans-serif;
 }
